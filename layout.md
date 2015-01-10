@@ -9,3 +9,4 @@ Herschel Observations 3.tex
 SPIRE Flux1.tex
 Timeline Fitting 1.tex
 Timeline Fitting 2.tex
+Timeline Fitting 3.tex
