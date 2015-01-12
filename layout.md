@@ -19,5 +19,5 @@ Comparison with Planck.tex
 Detection Rate.tex
 figures/detection_fraction/detection_fraction.png
 Flux and Luminosity Correlations.tex
-figures/spire_bat_lum_correlations1/spire_bat_lum_correlations.png
+figures/spire_bat_lum_correlations1/lum70_vs_lumBAT.png
 SPIRE Colors.tex
