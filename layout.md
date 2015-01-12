@@ -10,6 +10,6 @@ SPIRE Flux1.tex
 Timeline Fitting 1.tex
 Timeline Fitting 2.tex
 Timeline Fitting 3.tex
-Aperture Photometry.tex
+Aperture Photometry: Apertures.tex
 Flux Calculation.tex
 Uncertainty Calculation.tex
