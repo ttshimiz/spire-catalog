@@ -14,3 +14,4 @@ Aperture Photometry: Apertures.tex
 Flux Calculation.tex
 Uncertainty Calculation.tex
 Results.tex
+Comparison with HRS.tex
