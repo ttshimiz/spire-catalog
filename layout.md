@@ -19,3 +19,4 @@ Comparison with Planck.tex
 Detection Rate.tex
 figures/detection_fraction/detection_fraction.png
 Flux and Luminosity Correlations.tex
+figures/lum250_vs_lumBAT_sy1/lum250_vs_lumBAT_sy1.png
