@@ -13,3 +13,4 @@ Timeline Fitting 3.tex
 Aperture Photometry: Apertures.tex
 Flux Calculation.tex
 Uncertainty Calculation.tex
+Results.tex
