@@ -17,3 +17,4 @@ Results.tex
 Comparison with HRS.tex
 Comparison with Planck.tex
 Detection Rate.tex
+figures/detection_fraction/detection_fraction.png
