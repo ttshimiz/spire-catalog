@@ -15,3 +15,4 @@ Flux Calculation.tex
 Uncertainty Calculation.tex
 Results.tex
 Comparison with HRS.tex
+Comparison with Planck.tex
