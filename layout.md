@@ -16,3 +16,4 @@ Uncertainty Calculation.tex
 Results.tex
 Comparison with HRS.tex
 Comparison with Planck.tex
+Detection Rate.tex
