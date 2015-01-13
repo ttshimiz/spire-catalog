@@ -22,3 +22,4 @@ Flux and Luminosity Correlations.tex
 figures/spire_bat_lum_correlations/spire_bat_lum_correlations.png
 SPIRE Colors.tex
 figures/f250_f350_color/f250_f350_color.png
+figures/f350_f500_color/f350_f500_color.png
