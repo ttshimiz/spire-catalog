@@ -1,1 +1,1 @@
-<iframe id="igraph" src="https://plot.ly/~tshimizu/63/830/475/" width="830" height="500" seamless="seamless" scrolling="no"></iframe>
+<iframe width="800" height="439" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~tshimizu/63.embed?width=800&height=439"></iframe>
