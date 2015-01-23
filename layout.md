@@ -1,7 +1,6 @@
 
 figures/spire_color_hist/spire_color_hist.pngIntro1.tex
 The Sample.tex
-Sample2.tex
 Sample 3.tex
 Sample 4.tex
 Herschel Observations 1.tex
