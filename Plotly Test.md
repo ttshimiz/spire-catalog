@@ -1,1 +1,1 @@
-<iframe id="igraph" src="https://plot.ly/~tshimizu/63/f-250f-350-vs-f-350f-500/" width="830" height="500" seamless="seamless" scrolling="no"></iframe>
+<iframe id="igraph" src="https://plot.ly/~tshimizu/63/830/475/" width="830" height="500" seamless="seamless" scrolling="no"></iframe>
