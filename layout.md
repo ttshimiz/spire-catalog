@@ -1,6 +1,6 @@
 
 figures/spire_color_hist/spire_color_hist.pngIntro1.tex
-The Sample.tex
+bat_sample.tex
 Herschel Observations 1.tex
 SPIRE Flux1.tex
 Timeline Fitting 1.tex
