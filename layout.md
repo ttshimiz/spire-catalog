@@ -1,7 +1,7 @@
 
 figures/spire_color_hist/spire_color_hist.pngIntro1.tex
 bat_sample.tex
-Herschel Observations 1.tex
+herschel_observations.tex
 SPIRE Flux1.tex
 Timeline Fitting 1.tex
 Aperture Photometry: Apertures.tex
