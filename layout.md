@@ -19,6 +19,7 @@ begin_tabular_c_c_c__.tex
 The_mean_and_medians_for__.tex
 Flux and Luminosity Correlations.tex
 begin_tabular_c_c_c__1.tex
+While_all_the_relationships_show__.tex
 figures/spire_bat_lum_correlations/spire_bat_lum_correlations.png
 SPIRE Colors.tex
 figures/f250_f350_color/spire_color_hist.png
