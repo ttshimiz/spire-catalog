@@ -14,7 +14,7 @@ Detection Rate.tex
 figures/detection_fraction/spire_detection_rates.png
 detection_rate_2.tex
 figures/spire_sy_lum_distributions/spire_sy_lum_distributions.png
-Figure_ref_fig_lum_dists_however__.tex
+Figure_ref_fig_lum_dist_however__.tex
 begin_tabular_c_c_c__.tex
 The_mean_and_medians_for__.tex
 Flux and Luminosity Correlations.tex
