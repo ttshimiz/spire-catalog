@@ -21,6 +21,7 @@ Flux and Luminosity Correlations.tex
 begin_tabular_c_c_c__1.tex
 While_all_the_relationships_show__.tex
 figures/spire_bat_lum_correlations/spire_bat_lum_correlations.png
+subsubsection_Correlation_With_Ultra_Hard__.tex
 SPIRE Colors.tex
 figures/f250_f350_color/spire_color_hist.png
 figures/spire_color_hist2/spire_color_correlation.png
