@@ -19,7 +19,7 @@ Figure_ref_fig_lum_dist_however__.tex
 begin_deluxetable_c_c_c__.tex
 The_mean_and_medians_for__.tex
 Flux and Luminosity Correlations.tex
-begin_tabular_c_c_c__1.tex
+begin_deluxetable_c_c_c__1.tex
 While_all_the_relationships_show__.tex
 figures/spire_bat_lum_correlations/spire_bat_lum_correlations.png
 subsubsection_Correlation_With_Ultra_Hard__.tex
