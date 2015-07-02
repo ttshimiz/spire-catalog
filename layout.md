@@ -5,6 +5,7 @@ herschel_observations.tex
 SPIRE Flux1.tex
 Timeline Fitting 1.tex
 Aperture Photometry: Apertures.tex
+subsubsection_Source_Detection_The_first__.tex
 Flux Calculation.tex
 Uncertainty Calculation.tex
 Results.tex
