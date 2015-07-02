@@ -1,0 +1,7 @@
+\subsubsection{Source Detection}
+The first step in the process is converting the SPIRE map units from Jy/beam to Jy/pixel. The images must be divided by the beam area specific to the waveband and calibration version (spire_cal_13_1) used to create the maps. For this work the beam areas are 469.7, 831.7, and 1793.5 arcsec$^{2}$ for the 250, 350, and 500 \um{} wavebands respectively and taken from the latest version of the SPIRE DRG. The conversion is then pixel-by-pixel using the following formula.
+
+\begin{equation}\label{eq:convert_unit}
+I\quad[Jy/pixel] = \frac{I\quad[Jy/beam] \times P^2}{B}
+\end{equation}
+  
