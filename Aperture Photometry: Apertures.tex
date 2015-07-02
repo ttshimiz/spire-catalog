@@ -2,6 +2,18 @@
 \subsubsection{Target and Background Apertures}
 For the rest of the sources, we perform aperture photometry to measure the flux densities directly from the \textit{Scanamorphos}-produced SPIRE maps. The first step in aperture photometry is to determine the size and shape of the aperture from which to extract the flux from. SPIRE maps are also not absolute calibrated so it is necessary to use another aperture outside the source but local to determine the background level.
 
-Instead of choosing apertures manually by visually inspecting each image, we used the Python based \texttt{Photutils} package 
+Instead of choosing apertures manually by visually inspecting each image, we used the publicly available, Python based \texttt{Photutils}\footnote{\url{http://photutils.readthedocs.org/en/stable/}} package. \texttt{Photutils} provides open-source functions that perform tasks such as detecting sources, measuring their size and shape, and performing aperture photometry. The process we used for the aperture photometry of the BAT AGN in the SPIRE maps involved the following key steps.
+
+\begin{enumerate}
+    \item Convert the maps from Jy/beam to Jy/pixel.
+    \item Measure the standard deviation and median of the global background level.
+    \item Detect sources above a given threshold using a segmentation image.
+    \item Find the associated BAT source.
+    \item Measure the size and shape of associated source.
+    \item Create the source and background annulus from the size and shape of the source.
+    \item Create a series of background apertures around the source aperture to measure the RMS of the background.
+    \item Measure the fluxes within all apertures and calculate a background-subtracted flux and uncertainty.
+\end{enumerate}
+  
   
   
