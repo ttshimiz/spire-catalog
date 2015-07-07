@@ -4,9 +4,10 @@ To quantify the offset from the main locus, we decided to fit the SED of all of 
 \begin{equation}\label{eq:mod_blackbody}
 F_{\nu} \propto \nu^{2}B(\nu, T)
 \end{equation}
-\noindent where $B(\nu, T)$ is the standard Planck blackbody function with a temperature of $T$. With the emissivity fixed at 2.0, there are only two free parameters, dust temperature and normalization. We fit the sources within a Bayesian framework using uniform priors for the logarithm of the normalization and dust temperature and a standard Gaussian likelihood function. To sample the posterior probability density function we use the \texttt{emcee} package \citep{Foreman-Mackey:2013lr} that implements the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) originally proposed by \citet{Goodman_2010}. 
+\noindent where $B(\nu, T)$ is the standard Planck blackbody function with a temperature of $T$. With the emissivity fixed at 2.0, there are only two free parameters, dust temperature and normalization. We fit the sources within a Bayesian framework using uniform priors for the logarithm of the normalization and dust temperature and a standard Gaussian likelihood function. To sample the posterior probability density function we use the \texttt{emcee} package \citep{Foreman_Mackey_2013} that implements the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) originally proposed by \citet{Goodman_2010}. 
 
 
 
+  
   
   
