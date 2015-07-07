@@ -1,13 +1,18 @@
 Further there seems to be a horizontal spread in the distribution of the BAT AGN in Figure~\ref{fig:color-color} that is clearly not evident in the HRS. This is characterized by a large group of BAT AGN above and to the left of the main locus and $\beta=1.5$ line (purple) as well as a smaller group of AGN below and to the right of the main locus and $\beta=2.0$ line (green). The latter group can be explained simply from a decrease in temperature and increase in emissivity up to around a value of 3.0, indicating the prevalence of large amounts of cold dust. The former group could be explained by a decrease in the emissivity closer to around values of 1.25 or 1.0, however this would require the dust temperature to increase to values above 60 K, not typical of regular star-forming galaxies. Rather these high temperatures (70--100 K) are near the expected temperatures for dust heated by the AGN, which show characteristic peaks in their SED between 20--40 \um{} \citep{Richards:2006fj,Netzer:2007ve,Mullaney:2011yq}. If the AGN is affecting the colors of these sources more than the ones on the main locus then there should be some correlation between the offset from the main locus and an indicator of AGN strength such as X-ray luminosity. 
 
-To quantify the offset from the main locus, we decided to fit the SED of all of the sources in Figure~\ref{fig:color-color} using a modified blackbody with a fixed emissivity of 2.0. The equation for a modified blackbody is
+To quantify the offset from the main locus, we decided to fit the SED of all of the sources in Figure~\ref{fig:color-color} using a modified blackbody with a fixed emissivity of 2.0 to measure the excess or deficiency of observed 500 \um{} emission compared to the model. The equation for a modified blackbody is
 \begin{equation}\label{eq:mod_blackbody}
 F_{\nu} \propto \nu^{2}B(\nu, T)
 \end{equation}
 \noindent where $B(\nu, T)$ is the standard Planck blackbody function with a temperature of $T$. With the emissivity fixed at 2.0, there are only two free parameters, dust temperature and normalization. We fit the sources within a Bayesian framework using uniform priors for the logarithm of the normalization and dust temperature and a standard Gaussian likelihood function. To sample the posterior probability density function we use the \texttt{emcee} package \citep{Foreman_Mackey_2013} that implements the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) originally proposed by \citet{Goodman_2010}. 
 
+For the model fitting, we only use 160, 250, and 350 \um{} flux densities. We exclude the 500 \um{} data point because our aim is to compare the expected 500 \um{} emission from the model with the observed one and do not want the fitting influenced by the observed emission. We also exclude the 70 \um{} flux density because it can be dominated by emission from hotter dust heated by young stars in dense star-forming regions or the AGN itself \citep{Calzetti:2000fk, :2010kq, Boquien:2011qf, Smith:2012fj, Melendez:2014yu}.
 
 
+
+
+
+  
   
   
   
