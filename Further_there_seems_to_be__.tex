@@ -4,14 +4,23 @@ To quantify the offset from the main locus, we decided to fit the SED of all of 
 \begin{equation}\label{eq:mod_blackbody}
 F_{\nu} \propto \nu^{2}B(\nu, T)
 \end{equation}
-\noindent where $B(\nu, T)$ is the standard Planck blackbody function with a temperature of $T$. With the emissivity fixed at 2.0, there are only two free parameters, dust temperature and normalization. We fit the sources within a Bayesian framework using uniform priors for the logarithm of the normalization and dust temperature and a standard Gaussian likelihood function. To sample the posterior probability density function we use the \texttt{emcee} package \citep{Foreman_Mackey_2013} that implements the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) originally proposed by \citet{Goodman_2010}. 
+\noindent where $B(\nu, T)$ is the standard Planck blackbody function with a temperature of $T$. With the emissivity fixed at 2.0, there are only two free parameters, dust temperature and normalization. We fit the sources within a Bayesian framework using uniform priors for the logarithm of the normalization and dust temperature and a standard Gaussian likelihood function. To sample the posterior probability density function we use the \texttt{emcee} package \citep{Foreman_Mackey_2013} that implements the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) originally proposed by \citet{Goodman_2010}. The MCMC ensemble sampler is essentially multiple MCMC chains running in parallel and each chain is called a ``walker''. We chose to use 50 walkers that run for 1000 steps each. The first 200 steps of each walker are discarded as a ``burn-in'' period that allows each walker to time to move away from the initial guesses for the parameters and begin exploring the full posterior probability distribution.
 
 For the model fitting, we only use 160, 250, and 350 \um{} flux densities. We exclude the 500 \um{} data point because our aim is to compare the expected 500 \um{} emission from the model with the observed one and do not want the fitting influenced by the observed emission. We also exclude the 70 \um{} flux density because it can be dominated by emission from hotter dust heated by young stars in dense star-forming regions or the AGN itself \citep{Calzetti:2000fk,Bendo:2010kq,Boquien:2011qf,Smith:2012fj,Melendez:2014yu}.
 
+The best fit model parameters for each source are determined as the 50th percentile of the posterior probability distribution. From these best fit parameters, we determine to the modeled 500 \um{} emission and calculate and ``excess'' using the following equation:
+\begin{equation}\label{eq:500um_excess}
+F_{excess} = \frac{F_{obs} - F_{model}}{F_{model}}
+\end{equation}
+\noindent $F_{excess}$ then represents a fractional excess (or deficiency) as compared to the model emission. A deficiency would be indicated by a negative value for $F_{excess}$. The best fit model parameters for each source are determined as the 50th percentile of the posterior probability distribution. From these best fit parameters, we determine to the modeled 500 \um{} emission and calculate and ``excess'' using the following equation:
+\begin{equation}\label{eq:500um_excess}
+F_{excess} = \frac{F_{obs} - F_{model}}{F_{model}}
+\end{equation}
+\noindent $F_{excess}$ then represents a fractional excess (or deficiency) as compared to the model emission. A deficiency would be indicated by a negative value for $F_{excess}$. 
 
 
 
-
+  
   
   
   
