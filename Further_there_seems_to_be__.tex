@@ -10,12 +10,13 @@ For the model fitting, we only use 160, 250, and 350 \um{} flux densities. We ex
 
 Each sample from the MCMC chain contains values for the parameters of the modified blackbody that are likely given the posterior distribution. From all of these parameters, we calculated 40000 modeled 500 \um{} emission and ``excess'' using the following equation:
 \begin{equation}\label{eq:500um_excess}
-F_{excess} = \frac{F_{obs} - F_{model}}{F_{model}}
+E_{500} = \frac{F_{obs} - F_{model}}{F_{model}}
 \end{equation}
-\noindent $F_{excess}$ then represents a fractional excess (or deficiency) as compared to the model emission. A deficiency would be indicated by a negative value for $F_{excess}$. The final excess value associated with the source is then determined as the median of all of the excess values. In Figure~\ref{fig:color-color_excess} we plot the same color-color diagram as in Figure~\ref{fig:color-color} with each point colored by its measured $F_{excess}$.
+\noindent $E_{500}$ then represents a fractional excess (or deficiency) as compared to the model emission. A deficiency would be indicated by a negative value for $E_{500}$. The final excess value associated with the source is then determined as the median of all of the excess values. In Figure~\ref{fig:color-color_excess} we plot the same color-color diagram as in Figure~\ref{fig:color-color} with each point colored by its measured $E_{500}$.
 
 
 
+  
   
   
   
