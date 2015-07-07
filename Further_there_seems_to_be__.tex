@@ -6,12 +6,13 @@ F_{\nu} \propto \nu^{2}B(\nu, T)
 \end{equation}
 \noindent where $B(\nu, T)$ is the standard Planck blackbody function with a temperature of $T$. With the emissivity fixed at 2.0, there are only two free parameters, dust temperature and normalization. We fit the sources within a Bayesian framework using uniform priors for the logarithm of the normalization and dust temperature and a standard Gaussian likelihood function. To sample the posterior probability density function we use the \texttt{emcee} package \citep{Foreman_Mackey_2013} that implements the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) originally proposed by \citet{Goodman_2010}. 
 
-For the model fitting, we only use 160, 250, and 350 \um{} flux densities. We exclude the 500 \um{} data point because our aim is to compare the expected 500 \um{} emission from the model with the observed one and do not want the fitting influenced by the observed emission. We also exclude the 70 \um{} flux density because it can be dominated by emission from hotter dust heated by young stars in dense star-forming regions or the AGN itself \citep{Calzetti:2000fk,:2010kq,Boquien:2011qf,Smith:2012fj,Melendez:2014yu}.
+For the model fitting, we only use 160, 250, and 350 \um{} flux densities. We exclude the 500 \um{} data point because our aim is to compare the expected 500 \um{} emission from the model with the observed one and do not want the fitting influenced by the observed emission. We also exclude the 70 \um{} flux density because it can be dominated by emission from hotter dust heated by young stars in dense star-forming regions or the AGN itself \citep{Calzetti:2000fk,Bendo:2010kq,Boquien:2011qf,Smith:2012fj,Melendez:2014yu}.
 
 
 
 
 
+  
   
   
   
