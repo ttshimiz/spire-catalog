@@ -32,3 +32,4 @@ While_the_bulk_of_the__.tex
 figures/spire_color_hist2/spire_color_correlation.png
 Further_there_seems_to_be__.tex
 figures/color-color-excess/color-color-excess.png
+In_general_points_at_low__.tex
