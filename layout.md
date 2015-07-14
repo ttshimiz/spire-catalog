@@ -1,7 +1,7 @@
 
 figures/spire_color_hist/spire_color_hist.pngIntro1.tex
-bat_sample.tex
 section_Introduction__.tex
+bat_sample.tex
 herschel_observations.tex
 figures/spire_map_fig0/spire_map_fig1.png
 SPIRE Flux1.tex
@@ -39,3 +39,5 @@ figures/excess_vs_radio_loudness/excess_vs_radio_loudness.png
 Figure_ref_fig_excess_vs_rx_plots__.tex
 figures/excess_vs_agn_strength/excess_vs_agn_strength.png
 Fig_ref_fig_excess_vs_agn_shows__.tex
+
+  
