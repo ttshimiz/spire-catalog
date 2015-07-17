@@ -4,8 +4,3 @@ The Spectral and Photometric Imaging Receiver (SPIRE) \citep{Griffin:2010sf} onb
 The SPIRE raw data (``Level 0'') were reduced to ``Level 1'' using the standard pipeline contained in the \textit{Herschel Interactive Processing Environment} (HIPE) version 13.0 \citep{Ott:2010rm}. The pipeline performs a host of steps including, but not limited to, glitch removal, electrical crosstalk correction, and brightness conversion, which results in timeline data (brightness vs. time) for each bolometer and each scan. 
 
 The Level 1 timelines were then input into \textit{Scanamorphos} v24.0 \citep{Roussel:2013gf} to create image maps for each source. \textit{Scanamorphos} was effectively designed to take advantage of the built-in redundancy of the detectors to subtract the low frequency noise caused by temperature drifts of the telescope as a whole (correlated noise) and each bolometer. The drifts are determined from the data themselves without the use of any noise model and thus more accurately take into account any time variation of the drifts. The final output of \textit{Scanamorphos} is a FITS image cube or series of FITS files containing the image, 1$\sigma$ pixel error, drifts, weights, and clean map. Each map has pixel sizes equal to $ \sim$1/4 times the point spread function (PSF) full width at half maximum (FWHM) of each waveband. For the 250 (18" FWHM), 350 (24" FWHM), and 500 \um{} (36'"FWHM) maps, this means 4.5", 6.25", and 9" pixel sizes respectively. The brightness units for the maps are Jy/beam. Fig.~\ref{fig:example_maps} shows the resulting maps, centered on the known positions of the AGN from Table 1.
-  
-  
-  
-  
-  
