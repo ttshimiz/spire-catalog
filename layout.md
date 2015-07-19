@@ -2,6 +2,7 @@
 figures/spire_color_hist/spire_color_hist.pngIntro1.tex
 section_Introduction_label_sec_intro__.tex
 bat_sample.tex
+begin_deluxetable_lllcclcc_label_tbl_1__.tex
 herschel_observations.tex
 figures/spire_map_fig0/spire_map_fig1.png
 SPIRE Flux1.tex
