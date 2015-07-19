@@ -14,7 +14,7 @@ figures/example_photometry/example_photometry.png
 Flux Calculation.tex
 Uncertainty Calculation.tex
 Results.tex
-begin_deluxetable_llcccc_label_tbl__.tex
+begin_deluxetable_lllcllcllcll_label_tbl__.tex
 Comparison with HRS.tex
 Comparison with Planck.tex
 Detection Rate.tex
