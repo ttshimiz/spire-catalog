@@ -42,5 +42,6 @@ Figure_ref_fig_excess_vs_rx_plots__.tex
 figures/excess_vs_agn_strength/excess_vs_agn_strength.png
 Fig_ref_fig_excess_vs_agn_shows__.tex
 section_Conclusions_We_have_produced__.tex
+acknowledgements_The_Herschel_spacecraft_was__.tex
 
   
